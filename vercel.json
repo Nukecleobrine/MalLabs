@@ -1,8 +1,39 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Binary Background.jpg",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Spyware Page.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Ransomware Page.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Trojans Page.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Backdoors Page.html",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
-      "src": "/backdoors",
-      "dest": "/Backdoors Page.html"
+      "src": "/",
+      "dest": "/index.html"
     },
     {
       "src": "/spyware",
@@ -11,11 +42,14 @@
     {
       "src": "/ransomware",
       "dest": "/Ransomware Page.html"
-    }
+    },
     {
       "src": "/trojans",
-      "dest": "/Trojan Page.html"
+      "dest": "/Trojans Page.html"
     },
-
+    {
+      "src": "/backdoors",
+      "dest": "/Backdoors Page.html"
+    }
   ]
 }
