@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "src": "/backdoors",
+      "dest": "/Backdoors Page.html"
+    },
+    {
+      "src": "/spyware",
+      "dest": "/Spyware Page.html"
+    },
+    {
+      "src": "/ransomware",
+      "dest": "/Ransomware Page.html"
+    }
+    {
+      "src": "/trojans",
+      "dest": "/Trojan Page.html"
+    },
+
+  ]
+}

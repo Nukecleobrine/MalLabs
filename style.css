@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('Binary Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Intro Section */
+.intro p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: lightgray;
+    text-align: justify;
+}
+
+/* Categories List */
+.categories {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.categories h2 {
+    font-size: 36px;
+    color: #00e5ff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 15px 0;
+}
+
+.categories a {
+    font-size: 26px;
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.categories a:hover {
+    color: lime;
+    text-decoration: underline;
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* What is Malware Section */
+.what-is-malware {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.what-is-malware h2 {
+    font-size: 34px;
+    color: #ff4081;
+    margin-bottom: 20px;
+}
+
+.what-is-malware p {
+    font-size: 20px;
+    color: #b0bec5;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.what-is-malware h3 {
+    font-size: 28px;
+    color: #ff4081;
+    margin-top: 30px;
+}
+
+.what-is-malware ul {
+    margin-top: 20px;
+}
+
+.what-is-malware ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #b0bec5;
+}
+
+.what-is-malware ul li strong {
+    color: #ff4081;
+}
+
+/* Footer Section (optional) */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    font-size: 14px;
+}
+
+footer a {
+    color: #00e5ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lime;
+    text-decoration: underline;
+}
