@@ -51,5 +51,12 @@
       "src": "/backdoors",
       "dest": "/Backdoors Page.html"
     }
+    {
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml" 
+    }
+  ]
+}
+
   ]
 }
