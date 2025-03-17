@@ -52,7 +52,7 @@
       "dest": "/Backdoors Page.html"
     }
     {
-      "src": "/sitemap.xml",
+      "src": "/sitemap", 
       "dest": "/sitemap.xml" 
     }
   ]
