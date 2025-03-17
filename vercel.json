@@ -28,6 +28,10 @@
     {
       "src": "Backdoors Page.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "sitemap.xml",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -52,9 +56,8 @@
       "dest": "/Backdoors Page.html"
     },
     {
-      "src": "/sitemap", 
-      "dest": "/sitemap.xml" 
+      "src": "/sitemap",
+      "dest": "/sitemap.xml"
     }
   ]
 }
-
