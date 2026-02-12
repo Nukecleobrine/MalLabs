@@ -30,6 +30,14 @@
       "use": "@vercel/static"
     },
     {
+      "src": "wallofshame.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "SonicOwO.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "sitemap.xml",
       "use": "@vercel/static"
     }
@@ -56,8 +64,17 @@
       "dest": "/Backdoors Page.html"
     },
     {
+      "src": "/info/wallofshame",
+      "dest": "/info/wallofshame.html"
+    },
+    {
+      "src": "/info/SonicOwO",
+      "dest": "/info/SonicOwO.html"
+    },
+    {
       "src": "/sitemap",
       "dest": "/sitemap.xml"
     }
   ]
 }
+
