@@ -38,6 +38,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "info/Hazy.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "sitemap.xml",
       "use": "@vercel/static"
     }
@@ -78,3 +82,4 @@
   ]
 }
  
+
