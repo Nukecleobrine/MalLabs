@@ -76,10 +76,15 @@
       "dest": "/info/SonicOwO.html"
     },
     {
+      "src": "info/Hazy.html",
+      "dest": "info/Hazy.html"
+    },
+    {
       "src": "/sitemap",
       "dest": "/sitemap.xml"
     }
   ]
 }
  
+
 
