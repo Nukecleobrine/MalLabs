@@ -42,6 +42,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "info/Sappho.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "sitemap.xml",
       "use": "@vercel/static"
     }
@@ -80,11 +84,16 @@
       "dest": "info/Hazy.html"
     },
     {
+      "src": "info/Sappho.html",
+      "dest": "info/Sappho.html"
+    },
+    {
       "src": "/sitemap",
       "dest": "/sitemap.xml"
     }
   ]
 }
  
+
 
 
